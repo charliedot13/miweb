@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROYECTO</title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <div class="topbar">
+        <h2>Carrito de compra</h2>
+        <div class="topbar-buttons">
+            <button id="login-button">Iniciar sesión</button>
+            <button id="register-button">Registrarse</button>
+        </div>
+    </div>
+    <div class="carrito-container">
+        <div class="carrito">
+            <table>
+                <tr>
+                    <td>
+                        <h2>PS5</h2>
+                        <p>Consola de videojuegos de última generación.</p>
+                        <p><b>500€</b></p>
+                        <img src="images/ps5.jpg">
+                        <button id="art1" class="add-cart-button">Añadir al carrito</button>
+                    </td>
+                    <td>
+                        <h2>Monitor 240Hz</h2>
+                        <p>Monitor de alta frecuencia de actualización, ideal para juegos competitivos.</p>
+                        <p><b>500€</b></p>
+                        <img src="images/monitor.avif">
+                        <button id="art2" class="add-cart-button">Añadir al carrito</button>
+                    </td>
+                    <td>
+                        <h2>Teclado mecánico cherry red</h2>
+                        <p>Teclado mecánico con interruptores Cherry Red, perfecto para juegos y escritura rápida.</p>
+                        <p><b>15€</b></p>
+                        <img src="images/teclado.jpg">
+                        <button id="art3" class="add-cart-button">Añadir al carrito</button>
+                    </td>
+                    <td>
+                        <h2>Entradas Final NBA</h2>
+                        <p>Entradas para asistir a la final de la NBA, el evento más emocionante del baloncesto profesional.</p>
+                        <p><b>2500€</b></p>
+                        <img src="images/entrada.png">
+                        <button id="art4" class="add-cart-button">Añadir al carrito</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="ticket">
+            <h1>Ticket de compra</h1>
+            <br>
+            <div id="cart-items">
+            </div>
+            <br>
+            <h3 id="cart-total">Total: 0€</h3>
+            <button id="empty-cart">Vaciar carrito</button>
+        </div>
+    </div>
+    <script src="./scripts/index.js"></script>
+</body>
+</html>

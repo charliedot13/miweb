@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topbar {
+    background-color: #333;
+    color: #fff;
+    padding-top: 1em;
+    padding-left: 2em;
+    height: 4em;
+}
+
+.topbar-buttons {
+    margin-left: 80%;
+    margin-top: -1.5em;
+}
+
+.topbar-buttons button {
+    color: black;
+    cursor: pointer;
+    padding: 0.5em 1em;
+}
+
+.carrito {
+    max-width: 70%;
+}
+
+.carrito-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 2em;
+    max-width: 100%;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.ticket {
+    flex: 1; /* Permite que el ticket tome el espacio restante */
+    max-width: 30%;
+    border: 1px solid #ddd;
+    padding: 1em;
+    background-color: #f9f9f9;
+}
+
+.carrito table td {
+    text-align: center;
+    padding: 1em;
+    border-style: ridge;
+    border-radius: 20px;
+    max-width: 20em;
+}
+
+.carrito table td img {
+    width: 10em;
+}
+
+.carrito table td .add-cart-button {
+    margin-top: 2em;
+    padding: 1.3em;
+}
